@@ -25,10 +25,7 @@ public class RestResult<T> implements Serializable {
 
     private Long total;
     public Boolean isSuccess() {
-        if (code == 1) {
-            return true;
-        }
-        return false;
+        return code == 1;
     }
     public static <T> RestResult<T> ok() {
         RestResult<T> restResult = new RestResult<>();

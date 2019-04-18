@@ -17,6 +17,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.upc.onlinejudge.pojo.data.User;
 import com.upc.onlinejudge.service.UserService;
 import com.upc.onlinejudge.util.JwtUtil;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class AdminFilter implements Filter {
 
     @Override
@@ -24,13 +28,13 @@ public class AdminFilter implements Filter {
 
     }
     @Autowired
-    UserService userService;
+    private UserService userService;
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         try {
-            System.out.println(request.getRequestURL());
+           log.info("{}", request.getRequestURL());
             Cookie[] cookies = request.getCookies();
             System.out.println(cookies);
             if (cookies!=null&&cookies.length>0) {
