@@ -1,12 +1,15 @@
 ## Online Judge Web
-> 优先级 管理系统相关
+> admin system priority
 
 ### TODO
-1. 队伍建设 
-2. 补题计划 
-3. 题目分类
-4. 队伍区预赛横向对比
-5. 模拟比赛
+1.  design @date 4.19~4.21
+2. team building @date 4.21
+3. unsolved problem planning @date 4.21
+4. Classification of titles @date 4.22
+5. kinds of regional contest solved and to solve @date 4.22
+6. front web @date 4.23~4.25
+7. rethink↑ @4.26
+
 
 ### Done
   Admin By Wang Chunfei
@@ -17,3 +20,5 @@
   
   Home By Wang Chunfei
   
+
+
