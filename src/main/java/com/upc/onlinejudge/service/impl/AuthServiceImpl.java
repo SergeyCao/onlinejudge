@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import com.upc.onlinejudge.mapper.dao.AuthenticateDAO;
 import com.upc.onlinejudge.pojo.data.Authenticate;
 import com.upc.onlinejudge.service.AuthService;
+/**
+ * @author wangchunfei
+ */
 @Service
 public class AuthServiceImpl implements AuthService {
     @Autowired

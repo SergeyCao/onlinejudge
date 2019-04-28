@@ -13,6 +13,9 @@ import com.upc.onlinejudge.pojo.params.SubmissionsQueryParam;
 import com.upc.onlinejudge.pojo.po.SubmitPo;
 import com.upc.onlinejudge.service.ProblemService;
 import com.upc.onlinejudge.service.SubmissionService;
+/**
+ * @author wangchunfei
+ */
 @Service
 public class SubmissionServiceImpl implements SubmissionService {
     @Autowired

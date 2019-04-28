@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Configuration;
 
 
 import javax.servlet.Filter;
+/**
+ * @author wangchunfei
+ */
 @Configuration
 public class AdminFilterRegisterBean {
     @Bean

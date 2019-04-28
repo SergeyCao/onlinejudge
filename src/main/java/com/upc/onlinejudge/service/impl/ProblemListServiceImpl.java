@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import com.upc.onlinejudge.mapper.dao.ProblemListDAO;
 import com.upc.onlinejudge.pojo.data.ProblemList;
 import com.upc.onlinejudge.service.ProblemListService;
+/**
+ * @author wangchunfei
+ */
 @Service
 public class ProblemListServiceImpl implements ProblemListService {
 

@@ -13,7 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.upc.onlinejudge.util.JwtUtil;
-
+/**
+ * @author wangchunfei
+ */
 public class JwtAuthenticationFilter implements Filter {
 
     @Override

@@ -19,7 +19,9 @@ import com.upc.onlinejudge.service.UserService;
 import com.upc.onlinejudge.util.JwtUtil;
 
 import lombok.extern.slf4j.Slf4j;
-
+/**
+ * @author wangchunfei
+ */
 @Slf4j
 public class AdminFilter implements Filter {
 

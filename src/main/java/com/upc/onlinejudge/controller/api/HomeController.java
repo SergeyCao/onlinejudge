@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.upc.onlinejudge.pojo.RestResult;
 import com.upc.onlinejudge.pojo.params.AnnouncementsQueryParam;
 import com.upc.onlinejudge.service.AnnouncementsService;
-
+/**
+ * @author wangchunfei
+ */
 @Controller
 @RequestMapping(value = "/api")
 public class HomeController {

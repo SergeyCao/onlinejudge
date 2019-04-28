@@ -31,7 +31,9 @@ import com.upc.onlinejudge.service.ProblemListService;
 import com.upc.onlinejudge.service.ProblemService;
 import com.upc.onlinejudge.service.SubmissionService;
 import com.upc.onlinejudge.service.UserService;
-
+/**
+ * @author wangchunfei
+ */
 @RestController
 @RequestMapping(value = "/admin")
 public class AdminController {

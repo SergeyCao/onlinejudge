@@ -15,7 +15,9 @@ import com.upc.onlinejudge.pojo.RestResult;
 import com.upc.onlinejudge.pojo.data.User;
 import com.upc.onlinejudge.service.UserService;
 import com.upc.onlinejudge.util.JwtUtil;
-
+/**
+ * @author wangchunfei
+ */
 @Controller
 @RequestMapping(value = "/filter_api")
 public class UserController {

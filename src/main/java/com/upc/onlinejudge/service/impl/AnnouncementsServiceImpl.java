@@ -9,7 +9,9 @@ import com.upc.onlinejudge.mapper.dao.AnnouncementsDAO;
 import com.upc.onlinejudge.pojo.data.Announcements;
 import com.upc.onlinejudge.pojo.params.AnnouncementsQueryParam;
 import com.upc.onlinejudge.service.AnnouncementsService;
-
+/**
+ * @author wangchunfei
+ */
 @Service
 public class AnnouncementsServiceImpl implements AnnouncementsService {
     @Autowired
