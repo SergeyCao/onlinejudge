@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wcfvol.onlinejudge.mapper.ext.UserMapper">
+<mapper namespace="com.upc.onlinejudge.mapper.ext.UserMapper">
     <select id="getUserBySubmissionId" parameterType="java.lang.Integer"
-            resultType="com.wcfvol.onlinejudge.pojo.data.User">
+            resultType="com.upc.onlinejudge.pojo.data.User">
         select a.id,a.username, a.email, a.solved, a.attempt, a.isAdmin from user a
         inner join submissions b
         on b.id = #{id} and a.username = b.username

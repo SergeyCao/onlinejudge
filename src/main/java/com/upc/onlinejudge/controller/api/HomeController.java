@@ -11,9 +11,6 @@ import com.upc.onlinejudge.pojo.RestResult;
 import com.upc.onlinejudge.pojo.params.AnnouncementsQueryParam;
 import com.upc.onlinejudge.service.AnnouncementsService;
 
-/**
- * @author Wang Chunfei
- */
 @Controller
 @RequestMapping(value = "/api")
 public class HomeController {

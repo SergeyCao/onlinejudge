@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.wcfvol.onlinejudge.mapper.dao.AuthenticateDAO">
-    <insert id="addAuthenticate" parameterType="com.wcfvol.onlinejudge.pojo.data.Authenticate">
+<mapper namespace = "com.upc.onlinejudge.mapper.dao.AuthenticateDAO">
+    <insert id="addAuthenticate" parameterType="com.upc.onlinejudge.pojo.data.Authenticate">
         insert into auth(
         username,salt,password
         )
@@ -12,7 +12,7 @@
         )
     </insert>
     <select id="getAuthByUsername" parameterType="java.lang.String"
-            resultType="com.wcfvol.onlinejudge.pojo.data.Authenticate">
+            resultType="com.upc.onlinejudge.pojo.data.Authenticate">
         select username, salt, password from auth where username = #{username}
     </select>
     <select id="getSaltByUsername" parameterType="java.lang.String"

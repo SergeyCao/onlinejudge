@@ -14,11 +14,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 
-/**
- * @ClassName LogAspect
- * @Author Wang Chunfei
- * @Date 2018/8/6 下午5:55
- **/
 @Aspect
 @Component
 public class LogAspect {

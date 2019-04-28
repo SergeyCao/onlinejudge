@@ -2,11 +2,11 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wcfvol.onlinejudge.mapper.dao.AnnouncementsDAO">
-    <select id="queryAll" resultType="com.wcfvol.onlinejudge.pojo.data.Announcements">
+<mapper namespace="com.upc.onlinejudge.mapper.dao.AnnouncementsDAO">
+    <select id="queryAll" resultType="com.upc.onlinejudge.pojo.data.Announcements">
         select * from announcements order by date desc
     </select>
-    <insert id="addAnnouncement" parameterType="com.wcfvol.onlinejudge.pojo.data.Announcements">
+    <insert id="addAnnouncement" parameterType="com.upc.onlinejudge.pojo.data.Announcements">
         insert into announcements(
         title, date, author, content
         )

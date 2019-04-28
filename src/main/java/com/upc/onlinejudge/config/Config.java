@@ -19,7 +19,7 @@ public class Config {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.wcfvol.onlinejudge"))
+                .apis(RequestHandlerSelectors.basePackage("com.upc.onlinejudge"))
                 .paths(PathSelectors.any())
                 .build();
     }

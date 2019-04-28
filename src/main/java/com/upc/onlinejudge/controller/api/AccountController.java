@@ -23,9 +23,6 @@ import com.upc.onlinejudge.service.UserService;
 import com.upc.onlinejudge.util.JwtUtil;
 import com.upc.onlinejudge.util.MD5;
 
-/**
- * @author Wang Chunfei
- */
 @Controller
 @RequestMapping(value = "/api")
 public class AccountController {

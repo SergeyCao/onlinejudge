@@ -32,11 +32,6 @@ import com.upc.onlinejudge.service.ProblemService;
 import com.upc.onlinejudge.service.SubmissionService;
 import com.upc.onlinejudge.service.UserService;
 
-/**
- * @ClassName ResultController
- * @Author Wang Chunfei
- * @Date 2018/7/1 下午4:00
- **/
 @RestController
 @RequestMapping(value = "/admin")
 public class AdminController {

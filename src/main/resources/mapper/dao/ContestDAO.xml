@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.wcfvol.onlinejudge.mapper.dao.ContestDAO">
-    <insert id="addContest" parameterType="com.wcfvol.onlinejudge.pojo.data.Contest">
+<mapper namespace = "com.upc.onlinejudge.mapper.dao.ContestDAO">
+    <insert id="addContest" parameterType="com.upc.onlinejudge.pojo.data.Contest">
         insert into contest(
         title,problems,start_time,duration,writers,password
         )
@@ -12,7 +12,7 @@
         )
     </insert>
     <select id="getContestList"
-            resultType="com.wcfvol.onlinejudge.pojo.data.Contest">
+            resultType="com.upc.onlinejudge.pojo.data.Contest">
         select title,problems,acm_rank,oi_rank,start_time,duration,writers,password
          from contest
     </select>
